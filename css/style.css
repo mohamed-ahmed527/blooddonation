@@ -1,0 +1,108 @@
+body{
+  direction: rtl;
+  margin: 0px;
+  color: #353333;
+  font-family: system-ui;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+/*********************/
+header{
+  background-color: rgb(250 245 245);
+}
+header nav{
+  padding: 20px 15px;
+  box-shadow: 0px 1px 8px 7px #dddd;
+}
+header nav .container{
+  overflow: hidden;
+}
+header nav .container .logo{
+  float: right;
+  cursor: pointer;
+}
+header nav .container .logo:hover{
+  color: #3d3b87;
+}
+header nav .container .logo span{
+  font-size: 28px;
+  font-family: system-ui;
+}
+header nav .container .account{
+  float: left;
+  cursor: pointer;
+  margin-top: 10px;
+}
+header nav .container .account span:hover{
+  color: #3d3b87;
+}
+header nav .container .account span{
+  margin-right: 10px;
+  font-size: 20px;
+}
+/****************info********/
+.info{
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+.info h1{
+  font-size: 32px;
+  color: #3d3b87;
+  font-family: system-ui;
+}
+.info ul li{
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+/**************contact**********/
+.contact{
+  background-color: #3d3b87;
+  padding: 50px 0px;
+}
+.contact h1{
+  color: white;
+  text-align: center;
+  font-size: 33px;
+  margin-bottom: 40px;
+}
+.contact form{
+  width: 60%;
+  margin: auto;
+}
+.contact form input , textarea{
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+  padding: 15px 10px;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 5px;
+  outline-style: none;
+  font-family: system-ui;
+}
+.contact form textarea{
+  height: 150px;
+}
+.contact form button{
+  font-size: 22px;
+  font-family: system-ui;
+  border-radius: 34px;
+  border: 0px;
+  padding: 7px 50px;
+  color: #353333;
+}
+/***social***/
+.social{
+  width: fit-content;
+  margin: auto;
+  margin-top: 50px;
+}
+.social a{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 0px 5px;
+  text-decoration: none;
+}
